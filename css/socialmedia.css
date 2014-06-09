@@ -1,0 +1,29 @@
+div.social-media-container {
+    position: fixed;
+    right:2.75%;
+    height: 30px;
+    width: 180px;
+    border-radius: 5px;
+    padding-left:5px;
+    margin-top:10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.social-media-container li {
+    list-style-type: none;
+    display:inline;
+    margin-left:auto;
+    padding: 5px;
+    height:100px;
+    width:100px;
+}
+a.social {
+    color: grey;
+}
+a.social:hover{
+    color:#428bca;
+}
+#item {
+    font-size:25px;
+}

@@ -1,0 +1,203 @@
+@font-face{
+    font-family: 'FjordsOne';
+    src: url('fonts/FjordOne-Regular.ttf'), url('fonts/FjordOne-Regular.eot');
+}
+@font-face {
+    font-family: "Fortune";
+    src: url('fonts/FortuneCity.ttf');
+}
+
+
+body{
+    min-width:766px;
+}
+.bodycontent{
+    display: inline-block; 
+    width: 45.5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    clear:both;
+    padding: 0px;
+    color:white;
+    
+    margin-top: 10px;
+    
+}
+
+.bodycontent h1 {
+    background-color: rgba(244, 241, 241, 0.41);
+    color:#38a5ff;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align:center;
+    padding-top: 5px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom: 5px;
+    min-width: 150px;
+    font-family: Fortune;
+}
+.bodycontent div {
+    display: inline-block;
+    float:left;
+    height:auto;
+    width:49%;
+    background-color: rgba(244, 241, 241, 0.41);    
+    border-radius: 5px;
+    padding-top: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    min-width: 150px;
+    <!--[if IE 8]>
+    background-color: #f4f1f1;  
+    <[endif]-->
+}
+
+.bodycontent h2 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 5px;
+    margin-top:0px;
+    margin-bottom: 10px;
+}
+.bodycontent p {
+    margin-top: 2px;
+    margin-bottom: 0px;
+    padding: 3px;
+    font-family: FjordsOne;
+    font-size: 16px;
+}
+.bodycontent ul{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-left: 27px;
+    font-family: FjordsOne;
+    font-size: 16px;
+}
+.timeline {
+    padding-top: 10px;
+    border-radius: 5px;
+}
+#bodycenter {
+    margin: 0 auto;
+}
+
+
+#active{
+    background-color: rgba(94, 186, 255, 0.41);
+    <!--[if IE 8]>
+    background-color: #5ebaff;
+    <![endif]-->
+}
+
+/* 1:2 display model */
+.row {
+    width: auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 10px;
+    align-items: center;
+}
+
+#section {
+    background-color: rgba(244, 241, 241, 0.41);
+    color:#38a5ff;
+    font-size: 50px;
+    border-radius: 4px;
+    margin-top: 15px;
+    text-align:center;
+    padding-top: 5px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom: 5px;
+    min-width: 150px;
+    font-family: Fortune;
+    margin-bottom: 10px;
+}
+
+.headerpic {
+    display: block;
+    float: left;
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 1.5%;
+}
+
+.item {
+    border-radius: 5px;
+}
+.item img{
+    border-radius: 5px;
+}
+
+.twothirdcontent {
+    display: block;
+    float: left;
+    padding: 10px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    /* Firefox */
+    width: -moz-calc(95.5% - 250px);
+    /* WebKit */
+    width:  -webkit-calc(95.5% - 250px);
+    /* Opera */
+    width: -o-calc(95.5% - 250px);
+    /* Standard */
+    width: calc(95.5% - 250px);
+    background-color: white;
+    border-radius: 5px;
+}
+.twothirdcontent p {
+    align-self: center;
+}
+
+.carousel-caption {
+    position:fixed;
+    top: 100px;
+    height:70px;
+    background-color: rgba(244, 241, 241, 0.8);
+    color: #38a5ff;
+    border-radius: 10px;
+    font-size: 50px;
+    padding-top: 0px;
+    
+}
+
+div.graphContent {
+    width:100%;
+    display:block; 
+    float:right; 
+    background-color: rgba(255,255,255,0);    
+    border-radius: 5px;
+    padding-top: 0px;
+    min-width: 150px;
+    margin-top: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    <!--[if IE 8]>
+    background-color: #f4f1f1;  
+    <[endif]-->
+}
+
+div.graphContent div {
+    background-color: rgba(255,255,255,0);
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+div.graphContent #container {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+#listlink a {
+    color:white;
+    text-decoration: underline;
+}
+#listlink a:hover{
+    font-weight: bold;
+    color: #05ad1c;
+}
