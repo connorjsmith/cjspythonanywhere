@@ -158,13 +158,16 @@ body{
 .carousel-caption {
     position:fixed;
     top: 100px;
-    height:70px;
+    right: 50%;
+    left: 50%;
+    margin-left: -275px;
+    margin-right: -275px;
     background-color: rgba(244, 241, 241, 0.8);
     color: #38a5ff;
     border-radius: 10px;
     font-size: 50px;
     padding-top: 0px;
-    
+    padding-bottom: 0px;
 }
 
 div.graphContent {
