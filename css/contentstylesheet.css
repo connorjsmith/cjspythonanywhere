@@ -204,3 +204,13 @@ div.graphContent #container {
     font-weight: bold;
     color: #05ad1c;
 }
+.link{
+    color: white;
+    font-weight: bold;
+}
+
+.link:hover {
+    color: #05ad1c;
+    font-weight: bold;
+    text-decoration: none
+}

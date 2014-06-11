@@ -1,7 +1,7 @@
 $(document).ready(function (){
     $('.leftnav').hide();
-    $('a:not(".navbar-brand,.dropdown-hover,.dropmenu")').hover(function(){ /*excludes the main icon and hover menus*/
-        $('i:not("#item")',this).show();
+    $('a:not(".navbar-brand,.dropdown-hover,.dropmenu,.link")').hover(function(){ /*excludes the main icon and hover menus*/
+        $('i:not("#item .fa-")',this).show();
         $(this).css ({
             "padding-top":"10px",
             "padding-bottom":"10px"
