@@ -27,6 +27,7 @@
 	position:absolute;
 	margin: 0;
 	padding: 0;
+    border-radius:0px;
 }
 
 .hover-grid-item .caption {
@@ -48,4 +49,15 @@
 	font-size: 15px;
 	font-weight: 400;
 	color: #fff;
+}
+div.headerpic {
+    border-width:5px;
+    border-style:solid;
+    -webkit-transition: border-width 0.2s;
+    transition: border-width 0.2s;
+    -webkit-transition: border-color 0.5s;
+    transition: border-color 0.5s;
+}
+div.headerpic:hover {
+    border-color: #38a5ff;
 }

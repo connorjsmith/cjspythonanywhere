@@ -18,6 +18,9 @@
 		
 		$(hoverGrid).find(settings.itemClass).hover(function () {
 			$(this).find('div.caption').stop(false, true).fadeIn(200);
+            $(this).css ({
+                'border-color':'blue'
+            });
 		},
         function () {
             $(this).find('div.caption').stop(false, true).fadeOut(200);
