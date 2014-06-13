@@ -185,8 +185,15 @@ body{
     color: #38a5ff;
     border-radius: 10px;
     font-size: 50px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.carousel-caption p {
+    padding: 0px;
+    margin: 0px;
 }
 
 div.graphContent {
