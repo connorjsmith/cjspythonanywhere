@@ -3,6 +3,10 @@
     src: url('fonts/FjordOne-Regular.ttf'), url('fonts/FjordOne-Regular.eot');
 }
 @font-face {
+    font-family: "Ubuntu";
+    src: url('fonts/Ubuntu-R.ttf');
+}
+@font-face {
     font-family: "Fortune";
     src: url('fonts/FortuneCity.ttf');
 }
@@ -194,6 +198,7 @@ body{
 .carousel-caption p {
     padding: 0px;
     margin: 0px;
+    font-family: Ubuntu;
 }
 
 div.graphContent {
