@@ -1,6 +1,6 @@
 $(document).ready(function (){
     $('.leftnav').hide();
-    $('a:not(".navbar-brand,.dropdown-hover,.dropmenu,.link")').hover(function(){ /*excludes the main icon and hover menus*/
+    $('a:not(".navbar-brand,.dropdown-hover,.dropmenu,.link,.fancybox")').hover(function(){ /*excludes the main icon and hover menus*/
         $('i:not("#item .fa-")',this).show();
         $(this).css ({
             "padding-top":"10px",

@@ -1,0 +1,32 @@
+.fancyContainer {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+a.fancybox {
+    display: inline-block;
+    width: 40%;
+    min-width: 400px;
+    max-width: 500px;
+    margin-bottom: 2%;
+    border-color: grey;
+}
+
+a.fancybox img {
+    width: 90%;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: grey;
+    border-width: 5px;
+    -webkit-transition: border-width 1s;
+    -webkit-transition: width 1s;
+    -webkit-transition: border-color 0.5s;
+
+}
+
+a.fancybox img:hover {
+    border-color: #38a5ff;
+    border-width : 10px;
+    width: 89%;
+}
